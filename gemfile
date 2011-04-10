@@ -1,0 +1,10 @@
+
+source "http://rubygems.org"   
+
+gem "sinatra", ">=1.0"    
+gem "sinatra-session", :require => 'sinatra/session'
+
+group :test do
+  gem "rspec", :require => "spec"
+end
+
